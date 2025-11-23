@@ -1,10 +1,8 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// NOM EXACT de ton repo GitHub
-const repoName = 'TP-G-n-ral---Galerie-d-Inspiration-Cr-ative';
-
+// https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: `/${repoName}/`,
+  base: '/TP-G-n-ral---Galerie-d-Inspiration-Cr-ative/', // Nom exact de votre dépôt GitHub
 });
